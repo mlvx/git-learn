@@ -8,13 +8,15 @@ Unexpectedly, I could not read in a shell command.  The following failed:
 I don't know yet why it failed; but I soon shall.
 
 Let me try again (so I can crib the errmsg).  Here's the error message:
-~/Documents/GitHub/git-learn/README.md[+] [unix] (17:14 13/04/2018)
-      1 [main] vim 7148 child_info_fork::abort: C:\Users\UserName\AppData\Local\GitHub\PortableGit_[long-hexadecimal-hash]\usr\bin\msys-ssp-0.dll: Loaded to
-      different address: parent(0x1E0000) != child(0xD0000)
 
-      Cannot fork
-
-      E485: Can't read file /tmp/v4D588c/2
+    ~/Documents/GitHub/git-learn/README.md[+] [unix] (17:14 13/04/2018)
+        1 [main] vim 7148 child_info_fork::abort:
+	C:\Users\UserName\AppData\Local\GitHub\PortableGit_[long-hexadecimal-hash]\usr\bin\msys-ssp-0.dll:
+	Loaded to different address: parent(0x1E0000) != child(0xD0000)
+        
+	Cannot fork
+        
+	E485: Can't read file /tmp/v4D588c/2
 
 So basically, even though I think I'm in the ~/Documents/GitHub/git-learn dir, 
 for some reason either git-bash or its instance of Vim believes that I'm in
