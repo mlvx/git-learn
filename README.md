@@ -4,7 +4,9 @@ One n00b coder's journey from the land of Doy to 1337-land.
 
 2018-04-13T17:20:50-0700
 Unexpectedly, I could not read in a shell command.  The following failed:
-:r !date --iso-8601=seconds
+
+    :r !date --iso-8601=seconds
+
 I don't know yet why it failed; but I soon shall.
 
 Let me try again (so I can crib the errmsg).  Here's the error message:
@@ -35,6 +37,7 @@ I was expecting there to be some way on the web client to pull in the modified
 file, but I didn't see one.  Maybe after it's been locally staged?  Hmm, I
 probably have some fundamental misunderstanding.  Let's see, I get this error
 when, on the web client, I click the "Open in local" link:
+
 	This address wasn't understood.  The following
 	protocol (x-github-client) isn't associated with
 	any program or is not allowed in this context.
@@ -46,3 +49,4 @@ but there might not be a way, from the www client, to suck in changes that
 are on my laptop.  (Thinking about it, that avoids a security risk, right?)
 
 Side note:  Git-bash, y u no tmux?
+Also:  How do I get rid of the .swp file in the repo?
