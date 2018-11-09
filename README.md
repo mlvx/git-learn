@@ -50,3 +50,6 @@ are on my laptop.  (Thinking about it, that avoids a security risk, right?)
 
 Side note:  Git-bash, y u no tmux?
 Also:  How do I get rid of the .swp file in the repo?
+
+2018-11-08
+Argh.  Starting from scratch, essentially.
